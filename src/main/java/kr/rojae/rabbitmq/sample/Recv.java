@@ -8,7 +8,8 @@ import com.rabbitmq.client.DeliverCallback;
 import java.nio.charset.StandardCharsets;
 
 /**
- * https://www.rabbitmq.com/tutorials/tutorial-one-java
+ * Docs : https://www.rabbitmq.com/tutorials/tutorial-one-java
+ * Command : java -cp .:amqp-client-5.21.0.jar:slf4j-api-1.7.36.jar:slf4j-simple-1.7.36.jar Recv.java
  */
 public class Recv {
   private final static String QUEUE_NAME = "hello";
